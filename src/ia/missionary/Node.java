@@ -23,6 +23,10 @@ public class Node {
 		check = false;
 	}
 	
+	public Node getParent() {
+		return parent;
+	}
+	
 	public void checked() {
 		check = true;
 	}

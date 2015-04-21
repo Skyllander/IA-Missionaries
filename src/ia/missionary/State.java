@@ -94,7 +94,7 @@ public class State {
 	}
 	
 	public void printState() {
-		System.out.println("-New State-");
+		System.out.println("-State-");
 		System.out.println("Valid: " + isValid());
 		System.out.println("GameOver: " + gameOver());
 		System.out.println("===Start===");
